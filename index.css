@@ -1,0 +1,672 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main_container {
+    height: 97rem;
+    width: 99.7%;
+
+
+}
+
+#bar {
+    display:none;
+}
+#bar2{
+    display:none;
+}
+.navigation {
+    background-color: lavender;
+    height: 70px;
+    width: 99.6%;
+    position: fixed;
+    top: 0px;
+
+    padding-top: 20;
+
+}
+
+.navigation_img {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 5%;
+    height: 50px;
+    
+
+
+}
+
+.navigation p {
+    margin-top: 58px;
+    font-size: 9px;
+    margin-left: 18px;
+    color: white;
+    padding-left: 3px;
+    width: 5%;
+    background-color:  darkgreen;
+}
+
+#mylist {
+
+    display: flex;
+    margin-top: -40px;
+    margin-left: 65%;
+}
+
+#mylist li {
+
+    list-style: none;
+    margin-left: 20px;
+    border-right: 2px solid orangered;
+
+    padding-right: 20px;
+}
+
+#mylist a {
+    text-decoration: none;
+    color: rgb(72, 129, 152);;
+    font-size: 17.5px;
+    font-weight: bold;
+
+
+}
+
+#mylist li a:hover {
+    color: orangered;
+    font-weight: bolder;
+
+}
+
+
+.container1 {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container11 {
+
+
+    background-image: url(cute-abandoned-dog-waiting-be-adopted-by-someone.jpg  );
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    box-shadow: inset 5px 5px 5px 5px lavender;
+
+
+
+}
+
+#paw {
+    font-size: 40px;
+    position: absolute;
+    top: 230px;
+    right: 390px;
+
+
+
+}
+
+.container12 {
+
+    background: lavender;
+    padding: 40px;
+    margin-top: 70px;
+
+}
+
+.container12 h1 {
+    margin-top: 100px;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    width: 70%;
+    margin-left: 50px;
+    font-family: Montserrat;
+    margin-bottom: 45px;
+    color: rgb(72, 129, 152);
+    padding-left: 90px;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            darkgreen 0%,
+            rgb(72, 129, 152)29%,
+            skyblue 67%,
+            orangered 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+
+.container12 p {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+
+}
+
+.container13 {
+    font-weight: bold;
+}
+
+
+.container12button {
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: green;
+    height: 30px;
+    width: 30%;
+    margin-left: 130px;
+    font-size: 15px;
+
+    color: azure;
+
+}
+
+.container12button:hover {
+    background-color:orangered;
+}
+
+.designborder {
+
+    height: 360px;
+    width: 92.5%;
+    background-color: rgba(47, 79, 79, 0.577);
+    ;
+
+    padding: 40px;
+
+    box-shadow: inset 0px 50px 10px 20px lavender;
+
+
+
+}
+
+.designborder>p {
+    font-family: Source Sans Pro;
+}
+
+.designborder h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    font-family: Montserrat;
+    color: orangered;
+
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+
+
+.main_container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(350px, auto);
+
+    background: lavender;
+}
+
+.main_container h1 {
+    color: rgba(0, 128, 0, 0.72);
+    ;
+}
+
+.box1 {
+    background-image: url(cute-dog-shelter-waiting-be-adopted-by-someone.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(POSTER.png);
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(dog-house-waiting-be-adopted-by-someone.jpg);
+    background-size: cover;
+}
+
+.formbutton {
+
+    height: 60px;
+    width: 99.9%;
+    background: lavender;
+}
+
+.formbutton button {
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 30px;
+    width: 15%;
+    background-color: green;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.formbutton button:hover {
+    background-color: orangered;
+
+}
+
+
+.footer1 {
+    height: 350px;
+    display: flex;
+
+    background-color: darkslategray;
+}
+
+.footer1>div {
+    width: 35%;
+    height: 300px;
+
+    color: white;
+    padding: 50px;
+    font-size: 14px;
+    font-family: Source Sans Pro;
+}
+
+.footer1 h2 {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightseagreen;
+
+    font-family: Montserrat;
+
+
+}
+
+.footer1_box3 li {
+    margin-left: 20%;
+}
+
+.footer2 {
+    color: white;
+    height: 60px;
+    background-color: seagreen;
+    text-align: center;
+    font-family: Source Sans Pro;
+}
+
+#contact {
+    margin-top: 30px;
+    color: SteelBlue;
+}
+
+.footer2>h5 {
+    padding: 20px;
+}
+
+#fac {
+    margin-left: 20px;
+    color: blue;
+}
+
+.regform {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    display: none;
+    z-index: 1;
+
+
+    background-color: lavender;
+    height: 420px;
+    width: 40%;
+    box-shadow: inset 20px 10px 50px lavender;
+    box-shadow: 10px 10px 20px lightskyblue;
+}
+
+.regform h1 {
+    color: darkslategray;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+.regform h2 {
+    color: rgba(0, 0, 255, 0.637);
+    font-size: 20px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    padding: 20px;
+}
+
+.regform h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 255, 0.637);
+    font-family: Source Sans Pro;
+
+
+}
+
+.regform button {
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    background-color: blue;
+
+    color: white;
+    font-size: 15px;
+    font-family: Source Sans Pro;
+}
+
+.regform button:hover {
+    background-color: rgba(0, 128, 0, 0.72);
+}
+
+.form-control {
+    margin-left: 20px;
+}
+
+.form-label {
+    margin-right: 30px;
+}
+
+#inputemail {
+    margin-left: 60px;
+}
+
+#inputemail {
+    margin-left: 60px;
+}
+
+#inputcontact {
+    margin-right: 50px;
+}
+
+#close {
+    position: absolute;
+    top: 7px;
+    left: 95%;
+    font-size: 20px;
+    color: gray;
+}
+
+#close:hover {
+    color: orangered;
+}
+
+#close2 {
+    position: absolute;
+    top: -1px;
+    left: 340px;
+}
+
+/* media part  */
+/* -------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+    .navigation {
+        font-size: 10px;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+
+
+
+    }
+    #bar{
+        float: right;
+        display: block;
+        position: absolute;
+        right:40px;
+        top:40px;
+        font-size: 30px;
+    }
+    .navigation_img {
+
+        width: 19%;
+        height: 50px;
+        margin-left: -13px;
+    }
+     #bar2{
+        float: right;
+        display: none;
+        position: absolute;
+        right:40px;
+        top:40px;
+        font-size: 30px;
+     } 
+    #mylist {
+        display: none;
+        height: 150px;
+        width:120px;
+        margin-left: 250px;
+        background-color:aliceblue;
+        margin-top: -50px;
+        padding-top:40px;
+       
+
+    }
+
+    .navigation p {
+        margin-top: 60px;
+        width: 20%;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 2px;
+
+    }
+
+    .container1 {
+        position: relative;
+        height: 550px;
+        width: 100%;
+        margin-top: 80px;
+        border: 1px solid #999;
+        z-index: -1;
+
+    }
+
+    .container11,
+    .container12 {
+        position: absolute;
+    }
+
+    .container11 {
+
+        margin-top: -10px;
+        height: 290px;
+        width: 100%;
+    }
+
+    .container12 {
+        height: 250px;
+        bottom: 1px;
+        width: 78%;
+    }
+
+    .container12 h1 {
+        margin-top: -20px;
+        font-size: 25px;
+        margin-left: -40px;
+        width: 110%;
+        padding-left: 45px;
+        height: 50px;
+        padding-top: 20px;
+
+    }
+
+    .p1 {
+        margin-top: -20px;
+
+        font-size: 20px;
+        margin-left: 9px;
+        width: 100%;
+    }
+
+    .p2 {
+
+        font-size: 1px;
+        margin-left: 9px;
+        width: 100%;
+    }
+
+    .container13 {
+
+        font-size: 15px;
+    }
+
+    #paw {
+        font-size: 20px;
+        position: absolute;
+        top: 235px;
+        left: 50%;
+    }
+
+    .container12button {
+        width: 120px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+    .designborder {
+        margin-top: -10px;
+        height: 630px;
+        width: 79%;
+     font-size:5x;
+        z-index: -1;
+    }
+
+    .main_container2 {
+        position: relative;
+        top: -630px;
+        display: grid;
+
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        position: absolute;
+    }
+
+    .box1 {
+
+        display: none;
+    }
+
+    .box2 {
+
+        display: none;
+    }
+
+    .box3 {
+        margin-top: 55px;
+        height: 300px;
+        width: 90%;
+        z-index: -1;
+    }
+
+    .formbutton {
+        width: 100%;
+    }
+    .formbutton button{
+
+        top: 50px;
+        width:110px;
+    }
+    .footer1{
+        width:100%;
+        height:460px;
+      
+    }
+
+    .footer1>div {
+        font-size: 12px;
+        width: 30%;
+        height: 200px;
+        padding: 10px;
+    }
+    #contact
+    {
+        margin-left: -50px;
+        margin-top: 10px;
+        margin-right: -70px;
+    }
+
+    .regform{
+        width:92%;
+        height: 450px;
+        margin-left:-90px;
+    }
+
+}
